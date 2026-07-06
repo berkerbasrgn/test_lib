@@ -2,7 +2,7 @@ from berker_genai_tools import LLMClient, clean_text
 
 
 def main() -> None:
-    text = "   This is    a messy text.   "
+    text = "   This is a messy text.   "
     cleaned = clean_text(text)
 
     llm = LLMClient()
